@@ -1,0 +1,364 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 184700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user is able to select Top Rated Shows from Menu",
+        "description": "",
+        "id": "question1;verify-user-is-able-to-select-top-rated-shows-from-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 795085100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10090222400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open http://www.imdb.com in Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.imdb.com",
+                  "offset": 7
+                },
+                {
+                  "val": "Chrome",
+                  "offset": 30
+                }
+              ],
+              "location": "TestSteps.iOpenUrlInBrowser(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332828100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Menu button",
+            "match": {
+              "location": "TestSteps.iClickMenuButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1943503500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select Top Rated Shows",
+            "match": {
+              "location": "TestSteps.iSelectTopRatedShows()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270449400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Top Rated Shows content is displayed",
+            "match": {
+              "location": "TestSteps.theTopRatedShowsContentIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Question1.2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 78100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify user is able to search",
+        "description": "",
+        "id": "question1;verify-user-is-able-to-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1124251600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9369525800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I open http://www.imdb.com in Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.imdb.com",
+                  "offset": 7
+                },
+                {
+                  "val": "Chrome",
+                  "offset": 30
+                }
+              ],
+              "location": "TestSteps.iOpenUrlInBrowser(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 403093100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I do a Search using Game of thrones",
+            "match": {
+              "location": "TestSteps.iDoASearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2574803400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "select term from suggestion list",
+            "match": {
+              "location": "TestSteps.selectTermFromSuggestionList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1406111800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Title, Rating and User reviews count are displayed",
+            "match": {
+              "location": "TestSteps.titleRatingAndUserReviewsCount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Question1.3"
+          }
+        ]
+      }
+    ],
+    "name": "Question1",
+    "description": "I want to use this template for Question1",
+    "id": "question1",
+    "keyword": "Feature",
+    "uri": "Home.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 218900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify user is able to register into IMdb",
+        "description": "",
+        "id": "question2;verify-user-is-able-to-register-into-imdb;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2364518100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestSteps.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8807319500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open http://www.imdb.com in Firefox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.imdb.com",
+                  "offset": 7
+                },
+                {
+                  "val": "Firefox",
+                  "offset": 30
+                }
+              ],
+              "location": "TestSteps.iOpenUrlInBrowser(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2006457900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click SignIn",
+            "match": {
+              "location": "TestSteps.iClickSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 704291700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click Create an Account",
+            "match": {
+              "location": "TestSteps.iClickCreateAnAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4289474600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I provide prabha prabhadks4@gmail.com Test@1234 and user registration successful",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prabha",
+                  "offset": 10
+                },
+                {
+                  "val": "prabhadks4@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "Test@1234",
+                  "offset": 38
+                }
+              ],
+              "location": "TestSteps.iProvideUserDetailsAndContinue(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11709539600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Logout and Login with prabhadks4@gmail.com Test@1234 successfully having profile prabha",
+            "match": {
+              "arguments": [
+                {
+                  "val": "prabhadks4@gmail.com",
+                  "offset": 24
+                },
+                {
+                  "val": "Test@1234",
+                  "offset": 45
+                },
+                {
+                  "val": "prabha",
+                  "offset": 83
+                }
+              ],
+              "location": "TestSteps.iLogoutAndLogin(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Question2.1"
+          },
+          {
+            "line": 5,
+            "name": "@Question2.2"
+          }
+        ]
+      }
+    ],
+    "name": "Question2",
+    "description": "I want to use this template for Question2",
+    "id": "question2",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
